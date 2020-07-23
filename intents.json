@@ -1,0 +1,270 @@
+{
+  "intents": [
+{
+      "tag": "new order",
+      "patterns": [
+        "I want to order",
+        "Can I order",
+        "Order"
+      ],
+      "responses": [
+        "Yes you can please tell me what you want",
+        "Please tell me what things you want to order",
+        "List the item you want"
+      ]
+    },
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Done"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "what you have",
+        "what items you have",
+        "items you have",
+        "items in your shop",
+        "items available",
+         "items"
+      ],
+      "responses": [
+        "We sell pizza, pasta , lime soda , mojito , hot chocolate",
+        "We have pizza"
+      ]
+    },
+
+
+    {
+      "tag": "pizza",
+      "patterns": [
+        "I want pizza",
+        "Give pizza menu",
+        "give pizza list",
+        "What type of pizzas you have?",
+        "Give the pizza list",
+        "Give the variety of pizza you sell",
+        "Give the variety of pizza you have",
+        "pizzas",
+        "pizza list",
+        "pizza variety",
+        "What pizzas you have"
+      ],
+      "responses": [
+        "We have Margherita,Double Cheese Margherita,Farm House,Deluxe Veggie,Mexican Green Wave,Peppy Paneer"
+      ]
+    },
+ {
+      "tag": "pasta",
+      "patterns": [
+        "I want pasta",
+        "Give pasta menu",
+        "give pasta list",
+        "What type of pasta you have?",
+        "Give the pasta list",
+        "Give the variety of pasta you sell",
+        "Give the variety of pasta you have",
+        "pasta",
+        "pasta variety",
+        "pasta list",
+        "What pizza you have",
+        "What pastas you have"
+
+      ],
+      "responses": [
+        "We have Penne,Fusilli,Spaghetti,Macaroni"
+      ]
+    },
+
+ {
+      "tag": "ordering",
+      "patterns": [
+        "I want Margherita",
+        "I want Double Cheese Margherita",
+        "I want Double Cheese Deluxe Veggie",
+        "I want Double Cheese Green Wave",
+        "I want Double Cheese Peppy Panner",
+        "I want Farm House,Deluxe Veggie,Mexican Green Wave,Peppy Paneer",
+        "I want Penne",
+        "I want Fusilli",
+        "I want Spaghetti",
+        "I want Macaroni",
+        "I want Penne,Fusilli,Spaghetti,Macaroni"
+
+      ],
+      "responses": [
+        "Your order has been taking bill will be generated to your mail.You can ask about your payment methods"
+      ]
+    },
+
+
+    {
+      "tag": "anything",
+      "patterns": [
+        "Anything else?",
+        "thats all",
+        "ohters",
+        "other than that",
+        "other things"
+      ],
+      "responses": [
+        "We also sell pasta and cakes",
+        "We alse have ice creams"
+      ]
+    },
+
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "What you accept",
+        "What do you accept",
+        "payment mode?",
+        "what about payment mode?",
+        "Are you cash only?",
+        "How can I pay?",
+        "How to pay?",
+        "Payment methods",
+        "Methods to pay?",
+        "What do you accept?",
+        "You accept what ?"
+      ],
+      "responses": [
+        "We accepts both Cash On Delivery and  Online Payments",
+        "We accept VISA, Mastercard",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+{
+      "tag": "cards",
+      "patterns": [
+        "cards?",
+        "mastercards?",
+        "creditcards?",
+        "can I pay with cards?",
+        "Accept cards?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Do you accepts card?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?"
+
+      ],
+      "responses": [
+        "Yes we accept cards",
+        "We accept VISA, Mastercard",
+        "We accept most major credit cards"
+      ]
+    },
+    {
+      "tag": "online payments",
+      "patterns": [
+        "online payments?",
+        "Is online payments accepted?",
+        "Do you accept online payments?",
+        "gpay?",
+        "google pay?",
+        "Do you accept google pay?",
+        "Do you accept gpay?",
+        "Can I pay with gpay?",
+        "Can I pay with google pay?",
+        "amazon pay?",
+        "pay with amazon pay?",
+        "Do you accept amazon pay?",
+        "Can I pay with amazon pay?",
+        "PayPal?",
+        "Can I pay with Paypal?"
+
+      ],
+      "responses": [
+        "We accepts any mode of Online Payements",
+        "Yes we accept"
+      ]
+    },
+    {
+      "tag": "order status",
+      "patterns": [
+        "What about my orders",
+        "My order status?",
+        "order status",
+        "Status of my order?"
+      ],
+      "responses": [
+        "Your order is being processed.If you are done ordering press the DONE ORDERING BUTTON",
+        "We are working on your order.Press the DONE ORDERING BUTTON if you are done"
+
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "When do I get my orders",
+        "How long does my order take?",
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "What about delivery time",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes maximum with respect to your address 1 hour.Press the DONE ORDERING BUTTON if you are done"
+
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+
+  {
+      "tag": "OK",
+      "patterns": [
+        "ok",
+        "That's ok",
+        "Hm",
+        "Done"
+      ],
+      "responses": [
+        "Anything else you need to know?"
+      ]
+    }
+  ]
+}
